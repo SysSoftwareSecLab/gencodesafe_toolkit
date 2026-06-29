@@ -33,3 +33,14 @@ gencodesafe_toolkit/
   reports/
   scripts/run_demo.sh
 ```
+RUN
+```
+cd gencodesafe_toolkit
+python -m pip install -e .
+
+gencodesafe analyze examples/python/insecure_llm_output.py --format md
+gencodesafe batch examples --format md --out reports/demo_report.md
+gencodesafe compare examples/python/insecure_llm_output.py examples/python/revised_still_risky.py --format md
+gencodesafe validate examples
+python -m unittest discover -s tests
+```
