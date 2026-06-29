@@ -44,3 +44,15 @@ gencodesafe compare examples/python/insecure_llm_output.py examples/python/revis
 gencodesafe validate examples
 python -m unittest discover -s tests
 ```
+
+核心功能包括：
+
+生成式代碼質量評估
+安全風險檢測
+性能問題提示
+可疑 API / 幻覺式接口風險檢測
+優化建議與 Markdown/JSON 報告輸出
+原始代碼與修復後代碼比較
+Pseudo-Repair / Vulnerability Mutation / Regression 風險提示
+Python / Java / JavaScript / C/C++ 的輕量規則支持
+GitHub 開源所需 README、LICENSE、CITATION、SECURITY、CONTRIBUTING 和 release checklist
