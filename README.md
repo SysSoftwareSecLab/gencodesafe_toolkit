@@ -56,3 +56,5 @@ python -m unittest discover -s tests
 Pseudo-Repair / Vulnerability Mutation / Regression 風險提示
 Python / Java / JavaScript / C/C++ 的輕量規則支持
 GitHub 開源所需 README、LICENSE、CITATION、SECURITY、CONTRIBUTING 和 release checklist
+
+TRL5中期原型/開源前工程基礎版本，後續可再擴展 CI/CD、更多語言規則、更完整 benchmark、用戶試用記錄和 Web/API 平台。
